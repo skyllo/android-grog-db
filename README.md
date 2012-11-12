@@ -1,4 +1,4 @@
-Android GrogDB - Database Wrapper
+GrogDB - Android Database Wrapper
 ===============
 A Simple Wrapper around the Android SQLite Database API.
 
