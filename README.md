@@ -52,7 +52,6 @@ public class TableOption extends GrogTable
 Creating the Database
 ```java
 final TableOption tableOption = new TableOption();
-final TableCountry tableCountry = new TableCountry();
 int databaseVersion = 1;
 
 GrogDB database = new GrogDB("MyDatabase", "TAG", databaseVersion, new GrogDBListener()
