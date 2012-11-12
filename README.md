@@ -56,7 +56,7 @@ int databaseVersion = 1;
 
 GrogDB database = new GrogDB("MyDatabase", "TAG", databaseVersion, new GrogDBListener()
 {
-  public void upgradeDatabase(SQLiteDatabase db, int oldVersion, int newVersion)
+	public void upgradeDatabase(SQLiteDatabase db, int oldVersion, int newVersion)
 	{
 		db.execSQL(tableOption.getSqlDrop());
 		db.execSQL(tableOption.getSqlCreate());
