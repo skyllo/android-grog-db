@@ -28,6 +28,9 @@ public class TableOption extends GrogTable
     super(TABLE_NAME, columns);
   }
   
+ /**
+  * Table Getter/Setter Methods
+  */
   public void setBooleanOption(String optionID, boolean bool)
   {
     int onoff = (bool) ? 1 : 0;
